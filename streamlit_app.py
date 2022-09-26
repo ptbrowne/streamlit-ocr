@@ -43,7 +43,6 @@ st.set_page_config(layout="wide")
 
 img_file = st.sidebar.file_uploader(label='Upload a file', type=['png', 'jpg'])
 
-print(img_file.read())
 realtime_update = True
 box_color = '#0000FF'
 aspect_choice = 'Free'
